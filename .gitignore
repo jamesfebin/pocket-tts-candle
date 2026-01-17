@@ -1,0 +1,12 @@
+/target/
+*.wav
+/weights/*.safetensors
+/weights/embeddings/*.safetensors
+/weights/tokenizer.model
+/weights/tokenizer.json
+.DS_Store
+.cursorindexingignore
+Cargo.lock
+/weights/.DS_Store
+/weights/.gitkeep
+/.specstory/.gitignore
