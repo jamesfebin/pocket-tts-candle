@@ -4,7 +4,7 @@ use std::io::BufWriter;
 use std::path::PathBuf;
 
 use anyhow::{bail, Result};
-use candle::DType;
+use candle::{DType, Device};
 use candle_nn::VarBuilder;
 use clap::Parser;
 
