@@ -19,12 +19,17 @@ This is an unofficial Rust implementation of Pocket TTS, a lightweight text-to-s
 
 This port is based on the excellent work by the Kyutai team:
 
-**Paper**: [Pocket TTS: A Small Model for High-Quality Speech Synthesis](https://arxiv.org/abs/2509.06926)
-**Original Authors**: Manu Orsini*, Simon Rouard*, Gabriel De Marmiesse*, Václav Volhejn, Neil Zeghidour, Alexandre Défossez (*equal contribution)
-**Organization**: [Kyutai Labs](https://kyutai.org/)
-**Original Repository**: [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)
-**Model Card**: [kyutai/pocket-tts on Hugging Face](https://huggingface.co/kyutai/pocket-tts)
-**Demo**: [kyutai.org/tts](https://kyutai.org/tts)
+Paper: [Pocket TTS: A Small Model for High-Quality Speech Synthesis](https://arxiv.org/abs/2509.06926)
+
+Original Authors: Manu Orsini*, Simon Rouard*, Gabriel De Marmiesse*, Václav Volhejn, Neil Zeghidour, Alexandre Défossez (*equal contribution)
+
+Organization: [Kyutai Labs](https://kyutai.org/)
+
+Original Repository: [kyutai-labs/pocket-tts](https://github.com/kyutai-labs/pocket-tts)
+
+Model Card: [kyutai/pocket-tts on Hugging Face](https://huggingface.co/kyutai/pocket-tts)
+
+Demo: [kyutai.org/tts](https://kyutai.org/tts)
 
 ## Installation
 
