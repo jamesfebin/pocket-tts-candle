@@ -1,7 +1,7 @@
 use std::path::PathBuf;
 
 use anyhow::{Context, Result};
-use hf_hub::{api::sync::Api, Repo, RepoType};
+use hf_hub::{api::sync::ApiBuilder, Repo, RepoType};
 
 #[derive(Debug, Clone)]
 pub(crate) struct HfFile {
@@ -31,7 +31,7 @@ pub(crate) fn parse_hf_uri(uri: &str) -> Option<HfFile> {
 }
 
 pub(crate) fn download_hf_file(file: &HfFile) -> Result<PathBuf> {
-    let api = Api::new().context("failed to init hf-hub api")?;
+    let api = ApiBuilder::from_env().build().unwrap();
     let repo = match &file.revision {
         Some(rev) => Repo::with_revision(file.repo_id.clone(), RepoType::Model, rev.clone()),
         None => Repo::new(file.repo_id.clone(), RepoType::Model),
