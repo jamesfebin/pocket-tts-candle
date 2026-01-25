@@ -1,5 +1,7 @@
 # Pocket TTS Rust
 
+> **Archived**: This repository is archived and no longer maintained. Please use [babybirdprd/pocket-tts](https://github.com/babybirdprd/pocket-tts), which is a higher-quality and more performant implementation than this one.
+
 A Rust port of [Kyutai's Pocket TTS](https://github.com/kyutai-labs/pocket-tts) using the [Candle](https://github.com/huggingface/candle) ML framework.
 
 ## About
